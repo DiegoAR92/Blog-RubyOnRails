@@ -4,11 +4,25 @@
     <title>Blog</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track'=> true  %>
   </head>
 
   <body>
+
+  	<header>
+  		<nav class="be-red white large_padding">
+  			<ul class="no-list row center-xs">
+  				<li class="col-md"><%= link_to "Inicio", root_path %></li>
+  				<li class="col-md">Diseño</li>
+  				<li class="col-md">Programacion</li>
+  				<li class="col-md">Robotica</li>
+  				<li class="col-md">Electronica</li>
+  			</ul>	
+  		</nav>
+  	</header>
+
+
     <%= yield %>
   </body>
 </html>
