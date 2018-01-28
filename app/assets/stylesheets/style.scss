@@ -1,17 +1,28 @@
 html,body{
 	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+
+}
+.no-margin{
+	margin: 0px;
+}
+#logo{
+	font-size: 1.2em;
 }
 
 .be-red{
-background-color: rgb(200,50,50);
+background-color: #2B5A02;
 
 }
 .white{
-	color:white;
+	color:#F1F1F1;
 }
 .large_padding{
-	padding: 15px 10px;
+	padding: 10px 7px;
 }
 .no-list{
 list-style:none;
+}
+a:visited{
+	color: inherit;
 }
