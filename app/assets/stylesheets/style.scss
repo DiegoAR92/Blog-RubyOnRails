@@ -10,6 +10,16 @@ html,body{
 	font-size: 1.2em;
 }
 
+.btn{
+
+	background-color: inherit;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 1.2em;
+	padding: 10px 7px;
+}
 .be-red{
 background-color: #2B5A02;
 
@@ -25,4 +35,16 @@ list-style:none;
 }
 a:visited{
 	color: inherit;
+}
+.field{
+	margin-top: 1em;
+}
+.form_control{
+	border: none;
+	border-bottom: 1px solid;
+	outline: none;
+	width: 100%;
+	display: block;
+	padding: 10px 0px;
+	font-size: 1.2em;
 }
