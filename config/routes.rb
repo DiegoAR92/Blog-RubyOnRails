@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
 
+	devise_for :users
 	resources :articles
 =begin
 		get "/articles"
 		post "/articles"
-		delete "/articles"
+		delete "/articles/:id"
 		get "/articles:id"
 		get "/articles/new"
 		get "/articles:id/edit"

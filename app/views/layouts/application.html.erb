@@ -9,20 +9,10 @@
   </head>
 
   <body>
-
-  	<header>
-  		<nav class="be-green white large_padding">
-  			<ul class="no-list row center-xs middle-xs">
-  				<li class="no-margin col-md"><h1 class="no-margin" id="logo">ForoTRUbers</li>
-  				<li class="col-md"><%= link_to "Inicio", root_path %></li>
-  				<li class="col-md">Comunidad</li>
-  				<li class="col-md">Articulos</li>
-  				<li class="col-md">Streamming</li>
-  				<li class="col-md">Contactanos</li>
-  			</ul>	
-  		</nav>
-  	</header>
-
+   
+  	<%= render "partials/navigation"%>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
 
     <%= yield %>
   </body>

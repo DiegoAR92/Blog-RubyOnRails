@@ -27,9 +27,7 @@ html,body{
 background-color: #F22F41;
 
 }
-.top-space{
-	margin-top:1em;
-}
+
 .be-green{
 background-color: #2B5A02;
 
@@ -46,7 +44,7 @@ list-style:none;
 a:visited{
 	color: inherit;
 }
-.field{
+.field,.top-space,.actions{
 	margin-top: 1em;
 }
 .form_control{
@@ -57,4 +55,7 @@ a:visited{
 	display: block;
 	padding: 10px 0px;
 	font-size: 1.2em;
+}
+.text-left{
+	text-align: left;
 }
