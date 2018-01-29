@@ -37,6 +37,19 @@ class ArticlesController < ApplicationController
 
 	#PUT /articles/:id
 	def update
-		
+
+	end
+
+	#
+	def edit
+		@article = Article.find(params[:id])
+
+	end
+
+	private
+
+	def article_params
+		params.requiere(:article).permit(:titulo,:cuerpo)
+
 	end
 end

@@ -1,4 +1,4 @@
 <% @article.each do | article | %>
-	<h1><%= article.titulo %></h1>
-	<div><%= article.cuerpo %> - <%= link_to "Eliminar", article, method: :delete  %></div>
+	<h1><%= link_to article.titulo, article%></h1>
+	<div><%= article.cuerpo %> - <%= link_to "Eliminar", article, class:"red" , method: :delete%></div>
 <%end%>
